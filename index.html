@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXGEO</title>
+    <link rel="stylesheet" href="/node_modules/ol/ol.css" />
+    <link rel="stylesheet" href="styles/geolocation.css" />
+  </head>
+  <body>
+    <div
+      id="map"
+      style="width: 100%; height: 100vh; position: relative; z-index: 0"
+    ></div>
+    <div id="alert" class="title-map">
+      <p id="info_alert">Welcome!</p>
+    </div>
+    <div class="container-form">
+      <div class="title-coor">Enter your <br>
+        coordinates</div>
+      <label for="latitude">Latitude:</label>
+      <input type="number" id="latitude" placeholder="Enter Latitude" />
+      <label for="longitude">Longitude:</label>
+      <input type="number" id="longitude"   placeholder="Enter Longitude"/>
+      <button class="btn-Add" id="addPointsButton">Add Point</button>
+      <button class="btn-Curr" id="currentLocation">Use Current Location</button>
+    </div>
+    <!-- Pointer events polyfill for old browsers, see https://caniuse.com/#feat=pointer -->
+    <script src="https://cdn.jsdelivr.net/npm/elm-pep@1.0.6/dist/elm-pep.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

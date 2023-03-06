@@ -1,0 +1,94 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.map-mex {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+.container-form {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 250px;
+  height: 500px;
+  left: 50px;
+  top: 160px;
+  padding: 50px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 1px 20px 40px 1px rgba(0, 0, 0, 0.55);
+}
+.title-coor {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 27px;
+  color: #052461;
+  text-transform: uppercase;
+}
+.container-form label {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #052461;
+}
+.container-form input {
+  width: 243px;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.btn-Add {
+  width: 172px;
+  height: 38px;
+  margin-left: 30px;
+  background: #ffffff;
+  border: 2px solid #052461;
+  border-radius: 6px;
+  margin-top: 30px;
+  
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #052461;
+  cursor:pointer;
+}
+.btn-Curr{
+  width: 180px;
+  margin-top: 90px;
+  height: 38px;
+  margin-left: 30px;
+  
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  background: #ffffff;
+  border: none;
+  color: #052461;
+  cursor:pointer;
+}
+
+.title-map{
+  width: 500px;
+  text-align: center;
+  padding: 2px;
+  border-radius: 15px;
+  background-color: rgb(244, 244, 244);
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%);
+  box-shadow: 10px 20px 40px 1px rgba(0, 0, 0, 0.55);
+}
+.title-map p{
+  color: #052461;
+  font-size: 20px;
+  font-weight: 900;
+}
